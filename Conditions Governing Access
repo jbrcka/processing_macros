@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <macro>
-  <title></title>
+  <title>Conditions Governing Access</title>
   <activation>~~~cao<activation>
   #short key hint: conditions access open
   <text>Collection is open for research.</text>
