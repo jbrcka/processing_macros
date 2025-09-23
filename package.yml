@@ -1,0 +1,9 @@
+# Name of the package
+name: archival processing macros
+
+# Import the other files
+import:
+  - notes.yml
+  - markup.yml
+  - names.yml
+  - form genre codes.yml
