@@ -14,7 +14,7 @@ matches:
 #CONDITIONS GOVERNING ACCESS - Open but requires notice (device setup, pre-screening) 
   - trigger: ":accessnotice"
     form: |
-      Collection is open for research, however access requires [[timespan]] advance notice. Contact the repository for more infomation.
+      Collection is open for research, however [[timespan]] advance notice is required. Contact the repository to arrange access.
     form_fields:
       text:
         multiline: true
