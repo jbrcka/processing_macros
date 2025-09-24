@@ -1,0 +1,9 @@
+#Today's date YYYY-MM-DD
+
+- trigger: ":today"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y-%m-%d"
