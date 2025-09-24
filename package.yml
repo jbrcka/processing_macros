@@ -6,4 +6,5 @@ import:
   - notes.yml
   - markup.yml
   - names.yml
+  - dates.yml
   - form_genre_codes.yml
