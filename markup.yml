@@ -1,5 +1,5 @@
 #Add macros for XML markup here.
 
 #ITALICS open italics markup and place cursor in the center
- - trigger: ":ii"
-    replace: "<i>"\"</i>"
+ - trigger: :ii
+   replace: <i>$|$</i>
