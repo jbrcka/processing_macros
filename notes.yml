@@ -2,11 +2,11 @@ matches:
 #Text for commonly used notes entered here
 
  #CONDITIONS GOVERNING ACCESS - ***Fully open***
-  - trigger: "accopen:"
+  - trigger: ":accopen"
     replace: Collection is open for research.
 
 #CONDINTIONS GOVERNING ACCESS - ***Partially open*** 
-  - trigger: "accpart:"
+  - trigger: ":accpart"
     form: |
       Collection is open for research, however [[units]] [[is_are]] closed until [[years]].
     form_fields:
@@ -14,7 +14,7 @@ matches:
         multiline: true
 
 #CONDITIONS GOVERNING ACCESS *** Open but requires notice*** (device setup, pre-screening)
-  - trigger: "accnotice:"
+  - trigger: ":accnotice"
     form: |
       Collection is open for research, however [[timespan]] advance notice is required. Contact the repository to arrange access.
     form_fields:
@@ -22,5 +22,5 @@ matches:
         multiline: true
 
 #CONDITIONS GOVERNING USE - Standard boilerplate language
-  - trigger: "useboil:"
+  - trigger: ":useboil"
     replace: Copyright status for collection materials is unknown. Transmission or reproduction of materials protected by U.S. Copyright Law (Title 17, U.S.C.) beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owners. Responsibility for any use rests exclusively with the user.
