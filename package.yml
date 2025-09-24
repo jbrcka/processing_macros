@@ -7,3 +7,4 @@ import:
   - markup.yml
   - names.yml
   - dates.yml
+  - template.yml
