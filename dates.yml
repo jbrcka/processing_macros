@@ -1,9 +1,9 @@
+matches:
 #Today's date YYYY-MM-DD
-
-- trigger: :today
+  - trigger: ":dayto"
     replace: "{{mydate}}"
     vars:
       - name: mydate
         type: date
         params:
-          format: %Y-%m-%d
+          format: "%D"
