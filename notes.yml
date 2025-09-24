@@ -1,18 +1,19 @@
 matches:
- #CONDITIONS GOVERNING ACCESS - Fully open
+#Text for commonly used notes entered here
+
+ #CONDITIONS GOVERNING ACCESS - ***Fully open***
   - trigger: "accopen:"
     replace: Collection is open for research.
 
-#CONDINTIONS GOVERNING ACCESS - Partially open 
+#CONDINTIONS GOVERNING ACCESS - ***Partially open*** 
   - trigger: "accpart:"
     form: |
       Collection is open for research, however [[units]] [[is_are]] closed until [[years]].
     form_fields:
       text:
-        multiline: false
+        multiline: true
 
-
-#CONDITIONS GOVERNING ACCESS - Open but requires notice (device setup, pre-screening) 
+#CONDITIONS GOVERNING ACCESS *** Open but requires notice*** (device setup, pre-screening)
   - trigger: "accnotice:"
     form: |
       Collection is open for research, however [[timespan]] advance notice is required. Contact the repository to arrange access.
