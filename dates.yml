@@ -1,5 +1,8 @@
 matches:
-#Today's date YYYY-MM-DD
+
+#Macros for date input here
+
+#Today's date MM/DD/YY
   - trigger: ":dayto"
     replace: "{{mydate}}"
     vars:
