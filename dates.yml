@@ -3,7 +3,7 @@ matches:
 #Macros for date input here
 
 #Today's date MM/DD/YY
-  - trigger: ":dayto"
+  - trigger: ":dayshort"
     replace: "{{mydate}}"
     vars:
       - name: mydate
