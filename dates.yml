@@ -2,7 +2,7 @@ matches:
 
 #Macros for DATE output here
 
- # TODAY DASHES Today's date in YYYY-MM-DD format
+# TODAY DASHES Today's date in YYYY-MM-DD format
   - trigger: ":day-"
     replace: "{{output}}"
     vars:
