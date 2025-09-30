@@ -25,10 +25,10 @@ matches:
         # Specify the 'date' type to use the date extension.
         type: date
         # The 'params' section configures the date extension.
-        params:
-          # The 'format' string determines the output of the date.
+        params
           # %Y: Year with century (e.g., 2023)
           # %B: Full month name (e.g., September)
           # %-d: Day of the month, without leading zero (e.g., 4)
+          # The 'format' string determines the output of the date.
           # Note: On Windows, you might need to use %#d instead of %-d
           format: "%Y %B %-d"
