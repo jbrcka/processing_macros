@@ -20,6 +20,10 @@ matches:
     form_fields:
       text:
         multiline: true
+        
+#CONDITIONS GOVERNING ACCESS *** University records restriction policy ****      
+  - trigger: ":72rule"
+    replace: Unless otherwise noted, records of the University of Notre Dame are restricted by policy for a period of 72 from the date of creation.
 
 #CONDITIONS GOVERNING USE - Standard boilerplate language
   - trigger: ":useboil"
