@@ -1,6 +1,8 @@
 matches:
 #Text for commonly used notes entered here
 
+#
+
  #CONDITIONS GOVERNING ACCESS - ***Fully open***
   - trigger: ":accopen"
     replace: Collection is open for research.
@@ -23,7 +25,7 @@ matches:
         
 #CONDITIONS GOVERNING ACCESS *** University records restriction policy ****      
   - trigger: ":72rule"
-    replace: Unless otherwise noted, records of the University of Notre Dame are restricted by policy for a period of 72 years following their date of creation.
+    replace: Unless otherwise noted, records of the University of Notre Dame are restricted by policy for a period of 72 years following date of creation.
 
 #CONDITIONS GOVERNING USE - Standard boilerplate language
   - trigger: ":useboil"
@@ -53,7 +55,7 @@ matches:
               values:
                 - enslavement).
                 - enslaved person or people).
-                - hate groups or gatheri
+                - hate groups or gatherings).
                 - hate crimes).
                 - execution).
                 - self harm).
@@ -65,3 +67,13 @@ matches:
                 - human remains).
                 - medical conditions or procedures).
                 - OTHER DESCRIBE HERE).
+
+#PREFERRED CITATION *** UNDA ***
+
+  - trigger: ":citeunda"
+  - form: |
+      Collection is open for research, however [[timespan]] advance notice is required. Contact the repository to arrange access.
+      [[CODE]], [[TITLE]], Notre Dame Archives, Hesburgh Libraries, University of Notre Dame.
+    form_fields:
+      text:
+        multiline: true
