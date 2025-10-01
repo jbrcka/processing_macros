@@ -72,7 +72,6 @@ matches:
 
   - trigger: ":citeunda"
   - form: |
-      Collection is open for research, however [[timespan]] advance notice is required. Contact the repository to arrange access.
       [[CODE]], [[TITLE]], Notre Dame Archives, Hesburgh Libraries, University of Notre Dame.
     form_fields:
       text:
